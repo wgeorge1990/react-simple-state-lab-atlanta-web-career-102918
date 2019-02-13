@@ -8,7 +8,7 @@ export default class Cell extends Component {
     }
   }
 
-  handleClick = () => {
+  handleClick = (event) => {
     this.setState({
       color: '#333'
     })
